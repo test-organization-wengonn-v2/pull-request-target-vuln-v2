@@ -1,7 +1,6 @@
 name: Test Action
-on:
-  pull_request:
-    types: [opened, reopened]
+on: [pull_request]
+  
 jobs:
   test-action:
     runs-on: ubuntu-latest
