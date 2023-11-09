@@ -1,9 +1,9 @@
-name: Test Vuln Action
+name: Test Action
 on:
   pull_request:
     types: [opened, reopened]
 jobs:
-  test-vuln-action:
+  test-action:
     runs-on: ubuntu-latest
     env: # Or as an environment variable
       git_pat: ${{ secrets.GITHUB_TOKEN }}
