@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "test"
+env | grep "TEST-SECRET"
