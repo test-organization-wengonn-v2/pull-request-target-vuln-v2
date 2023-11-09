@@ -1,7 +1,7 @@
 name: Test Vuln Action
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [opened, reopened]
 jobs:
   test-vuln-action:
     runs-on: ubuntu-latest
