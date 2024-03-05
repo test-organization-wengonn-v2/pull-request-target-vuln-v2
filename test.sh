@@ -1,3 +1,7 @@
 #!/bin/bash
+echo "Test WengOnn-Deriv"
 
-echo "test"
+env | grep "super_secret" 
+
+
+
